@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}, #{user}
+  a(href='/joke') Joke
+  br
+  a(href='/jokes') All jokes
+  br
+  a(href='/add') Add joke
+  

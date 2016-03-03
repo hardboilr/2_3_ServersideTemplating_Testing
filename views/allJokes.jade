@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    title All jokes
+    body
+     h1 All jokes:
+     each joke in jokes
+      li= joke
+     br
+     a(href='/') Back

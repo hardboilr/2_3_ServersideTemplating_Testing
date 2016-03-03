@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    title Add joke
+    body
+     h1 Add joke:
+     form(action="/storeJoke", method="post")
+      input(type="text", name="joke")
+      input(type="submit")
+     br
+     a(href='/') Back
